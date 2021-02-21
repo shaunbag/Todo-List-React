@@ -1,0 +1,53 @@
+body {
+  background-image: url('../src/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+
+.App {
+  text-align: center;
+  margin: 100px 500px;
+  background-color: rgb(98, 154, 202);
+  height: 800px;
+  border-radius: 20px;
+  opacity: 0.8;
+}
+
+li {
+  border-radius: 10px;
+  background-color: rgba(45, 167, 120, 0.76);
+  margin: 10px 50px;
+  list-style-type: none;
+  padding: 10px;
+  font-size: large;
+  
+}
+
+.todo {
+  margin-left: 20px;
+  color: rgb(4, 161, 161);
+  font-family: 'Times New Roman', Times, serif;
+  background-color: black;
+  border-radius: 5px;
+  border: none;
+  font-size: large;
+}
+
+
+h1 {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(55,126,128,0.8071603641456583) 56%);
+  border-radius: 20px;
+  color:aliceblue;
+}
+
+label {
+  color: rgb(73, 18, 18);
+}
+
+@media only screen and (max-width: 1000px) {
+  .App {
+    margin: 20px 10px;
+  }
+}
